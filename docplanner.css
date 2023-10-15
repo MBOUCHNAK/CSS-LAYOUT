@@ -1,0 +1,92 @@
+body {
+  max-width: 80%;
+  margin: auto;
+}
+.LOGO {
+  width: 250px;
+  height: 30px;
+}
+nav ul {
+  color: gray;
+  display: flex;
+  list-style: none;
+  block-size: 100%;
+  text-align: right;
+  gap: 20px;
+  margin-right: 10px;
+}
+.about {
+  color: #00b39b;
+}
+.first {
+  max-width: 100%;
+  display: flex;
+  background-color: white;
+  position: fixed;
+  justify-content: space-between;
+  align-self: flex-end;
+  box-shadow: 10px;
+}
+.star {
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: #00b39b;
+  font-size: 2.125rem;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  margin: 34px o px;
+  padding-top: 50px;
+}
+.articles-container {
+  display: flex;
+}
+.p1 {
+  flex: 1;
+  margin-right: 20px;
+  font-family: Roboto, Arial, sans-serif;
+  color: gray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+div .container {
+  border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 345px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease 0s;
+  flex-wrap: wrap;
+  width: 25%;
+}
+.div-green {
+  background-color: #00b39b;
+  color: white;
+}
+.div-bleu {
+  background-color: rgb(123, 164, 240);
+  color: white;
+}
+.div-black {
+  background-color: black;
+  color: white;
+}
+.col {
+  background-color: rgb(183, 237, 219);
+}
+#H33 {
+  text-align: center;
+  color: #00b39b;
+  font-size: 2rem;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  margin: 34px o px;
+  padding-top: 50px;
+}
+
